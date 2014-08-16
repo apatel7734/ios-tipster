@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75718F8A199FBEBE006A0AAB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75718F89199FBEBE006A0AAB /* SettingsViewController.swift */; };
 		759A0B99199DE54F00B6C065 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759A0B98199DE54F00B6C065 /* AppDelegate.swift */; };
 		759A0B9B199DE54F00B6C065 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759A0B9A199DE54F00B6C065 /* ViewController.swift */; };
 		759A0B9E199DE54F00B6C065 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 759A0B9C199DE54F00B6C065 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		75718F89199FBEBE006A0AAB /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		759A0B93199DE54F00B6C065 /* Tipster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		759A0B97199DE54F00B6C065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		759A0B98199DE54F00B6C065 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +56,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75718F8B199FBEC9006A0AAB /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				759A0B9A199DE54F00B6C065 /* ViewController.swift */,
+				75718F89199FBEBE006A0AAB /* SettingsViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		759A0B8A199DE54F00B6C065 = {
 			isa = PBXGroup;
 			children = (
@@ -75,8 +86,8 @@
 		759A0B95199DE54F00B6C065 /* Tipster */ = {
 			isa = PBXGroup;
 			children = (
+				75718F8B199FBEC9006A0AAB /* View Controllers */,
 				759A0B98199DE54F00B6C065 /* AppDelegate.swift */,
-				759A0B9A199DE54F00B6C065 /* ViewController.swift */,
 				759A0B9C199DE54F00B6C065 /* Main.storyboard */,
 				759A0B9F199DE54F00B6C065 /* Images.xcassets */,
 				759A0B96199DE54F00B6C065 /* Supporting Files */,
@@ -210,6 +221,7 @@
 			files = (
 				759A0B9B199DE54F00B6C065 /* ViewController.swift in Sources */,
 				759A0B99199DE54F00B6C065 /* AppDelegate.swift in Sources */,
+				75718F8A199FBEBE006A0AAB /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +407,7 @@
 				759A0BB1199DE55000B6C065 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		759A0BB2199DE55000B6C065 /* Build configuration list for PBXNativeTarget "TipsterTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +416,7 @@
 				759A0BB4199DE55000B6C065 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
