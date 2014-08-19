@@ -22,6 +22,7 @@ class SettingsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        println("viewDidLoad")
         // Do any additional setup after loading the view.
         var firstVal = Utility.loadDefaultPercentages().firstVal
         var secondVal = Utility.loadDefaultPercentages().secondVal
@@ -36,9 +37,7 @@ class SettingsViewController: UIViewController {
         thirdPercLabel.text="\(thirdVal)%"
     }
     
-    override func viewDidAppear(animated: Bool) {
-        super.viewDidAppear(true)
-    }
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -74,7 +73,7 @@ class SettingsViewController: UIViewController {
         dismissViewControllerAnimated(true, nil)
     }
     
-
+    
     
     /*
     // MARK: - Navigation

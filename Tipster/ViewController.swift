@@ -25,6 +25,9 @@ class ViewController: UIViewController {
         tipLabel.text="$0.00"
         totalLabel.text = "$0.00"
         initializeDefaultPercIfNeeded()
+        var billAmount=Utility.loadBillAmount();
+        billTextField.text=billAmount
+        println("\(today)")
         
     }
     
@@ -42,6 +45,19 @@ class ViewController: UIViewController {
         if(firstPerc <= 0 || secondPerc <= 0 || thirdPerc <= 0){
             Utility.persistDefaultPercentages(18, second: 20, third: 22)
         }
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(true)
+        println("viewWillDisappear")
+        
+        Utility.persistBillAmount(billTextField.text)
+        
+    }
+    
+    override func viewDidDisappear(animated: Bool) {
+        super.viewDidDisappear(true)
+        println("viewDidDisappear")
     }
     
     
