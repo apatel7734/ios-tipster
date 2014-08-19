@@ -25,10 +25,11 @@ class ViewController: UIViewController {
         tipLabel.text="$0.00"
         totalLabel.text = "$0.00"
         initializeDefaultPercIfNeeded()
-        var billAmount=Utility.loadBillAmount();
-        billTextField.text=billAmount
-        println("\(today)")
-        
+        var billAmount=Utility.loadBillAmount().billAmnt
+        var timeInterval = Utility.loadBillAmount().savedDate
+        billTextField.text="\(billAmount)"
+        println("bill amount = \(billAmount)")
+        println("time interval = \(timeInterval)")
     }
     
     override func viewDidAppear(animated: Bool) {

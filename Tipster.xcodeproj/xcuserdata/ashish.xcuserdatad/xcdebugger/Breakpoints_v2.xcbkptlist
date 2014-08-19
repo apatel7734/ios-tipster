@@ -6,7 +6,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Tipster/SettingsViewController.swift"
@@ -22,7 +22,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Tipster/SettingsViewController.swift"
@@ -38,7 +38,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Tipster/SettingsViewController.swift"
@@ -51,32 +51,32 @@
             landmarkType = "5">
             <Locations>
                <Location
-                  shouldBeEnabled = "No"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Tipster.SettingsViewController.viewDidLoad (Tipster.SettingsViewController)() -&gt; ()"
                   moduleName = "Tipster"
                   urlString = "file:///Users/ashish/Documents/workspace-xcode6/Tipster/Tipster/SettingsViewController.swift"
-                  timestampString = "430119393.441218"
+                  timestampString = "430170139.387588"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "213">
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "718">
                </Location>
                <Location
-                  shouldBeEnabled = "No"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Tipster.SettingsViewController.viewDidLoad (Tipster.SettingsViewController)() -&gt; ()"
                   moduleName = "Tipster"
                   urlString = "file:///Users/ashish/Documents/workspace-xcode6/Tipster/Tipster/SettingsViewController.swift"
-                  timestampString = "430119393.441416"
+                  timestampString = "430170139.387733"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "217">
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "728">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -100,7 +100,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Tipster/SettingsViewController.swift"
@@ -113,32 +113,32 @@
             landmarkType = "5">
             <Locations>
                <Location
-                  shouldBeEnabled = "No"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Tipster.SettingsViewController.viewDidLoad (Tipster.SettingsViewController)() -&gt; ()"
                   moduleName = "Tipster"
                   urlString = "file:///Users/ashish/Documents/workspace-xcode6/Tipster/Tipster/SettingsViewController.swift"
-                  timestampString = "430119396.645596"
+                  timestampString = "430170139.440893"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "198">
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "285">
                </Location>
                <Location
-                  shouldBeEnabled = "No"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Tipster.SettingsViewController.viewDidLoad (Tipster.SettingsViewController)() -&gt; ()"
                   moduleName = "Tipster"
                   urlString = "file:///Users/ashish/Documents/workspace-xcode6/Tipster/Tipster/SettingsViewController.swift"
-                  timestampString = "430119396.645844"
+                  timestampString = "430170139.441141"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "208">
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "295">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -150,11 +150,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Tipster/Utility.swift"
-            timestampString = "430158442.533153"
+            timestampString = "430170138.873942"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
             landmarkName = "loadBillAmount()"
             landmarkType = "5">
          </BreakpointContent>
