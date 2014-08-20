@@ -26,10 +26,24 @@ class ViewController: UIViewController {
         totalLabel.text = "$0.00"
         initializeDefaultPercIfNeeded()
         var billAmount=Utility.loadBillAmount().billAmnt
-        var timeInterval = Utility.loadBillAmount().savedDate
-        billTextField.text="\(billAmount)"
-        println("bill amount = \(billAmount)")
-        println("time interval = \(timeInterval)")
+        if shouldDisplayBillAmount(){
+            billTextField.text="\(billAmount)"
+        }
+        
+    }
+    
+    
+    func shouldDisplayBillAmount() -> Bool{
+        var savedTimeInterval = Utility.loadLastRefTimeInterval().savedDate
+        var today = NSDate()
+        var currentTimeInterval = Int(today.timeIntervalSince1970)
+        var diffInSeconds = (currentTimeInterval - savedTimeInterval)
+        if(diffInSeconds < 600){
+            return true
+        }else{
+            return false
+        }
+        
     }
     
     override func viewDidAppear(animated: Bool) {

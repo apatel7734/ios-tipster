@@ -81,7 +81,7 @@
                         </connections>
                     </view>
                     <navigationItem key="navigationItem" title="Tip Calculator" id="OJ8-66-xAv">
-                        <barButtonItem key="rightBarButtonItem" title="Settings" style="plain" id="g7z-w9-jXv">
+                        <barButtonItem key="rightBarButtonItem" title="Settings" id="g7z-w9-jXv">
                             <connections>
                                 <segue destination="yZR-N4-XVB" kind="modal" id="4RN-VL-eax"/>
                             </connections>
